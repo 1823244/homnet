@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
+	<ConfigVersions>
+		<Metadata name="Configuration.ГР_ВыгрузкаОтчетов" id="a6c5b311-74f0-4202-bde6-7cb7c45ca647" configVersion="aa3d044dfe91276221a02aa71a689c9a2d0c4a49"/>
+		<Metadata name="Language.Русский" id="1f88d311-e533-40aa-8db9-b2a63b9ed084" configVersion="4770cd9b02760e33227f6c31d1c4c372b5e58f6f"/>
+		<Metadata name="Report.АнализСчета" id="0e79392a-6776-4277-887d-7ff97bd19ce9" configVersion="453f50577ed27fab122b40d15f18f6cb4409476a"/>
+		<Metadata name="Report.АнализСчета.Form.ФормаОтчета" id="be7a5093-d690-4f57-b1b9-b2f42b8e7991" configVersion="69f311b3e62408629c098fc82a2b6f8eecfbcc99"/>
+		<Metadata name="Report.АнализСчета.Form.ФормаОтчета.Form" id="be7a5093-d690-4f57-b1b9-b2f42b8e7991.0" configVersion="0b06913c719c2711b4fb3fe53153f8cdc0ba9db7"/>
+		<Metadata name="Report.КарточкаСчета" id="dfe9f975-3311-41eb-b681-c32d64166c1d" configVersion="9129496f177bf92d7dcfc1c414796d8c3b408537"/>
+		<Metadata name="Report.КарточкаСчета.Form.ФормаОтчета" id="440caa6b-cfa0-4034-91b2-2fa010457b54" configVersion="24e612bfbddfc71ce43bbc1be2cdd3ecb19709d3"/>
+		<Metadata name="Report.КарточкаСчета.Form.ФормаОтчета.Form" id="440caa6b-cfa0-4034-91b2-2fa010457b54.0" configVersion="92525cbb67cfdcd4f0726dc58af51ca5fccde5d7"/>
+		<Metadata name="Report.ОборотноСальдоваяВедомостьПоСчету" id="de2615c6-b1dd-452a-be88-1d6b3f4d4ed6" configVersion="22e4473dd9b576b735a3401735a47be4f378705e"/>
+		<Metadata name="Report.ОборотноСальдоваяВедомостьПоСчету.Form.ФормаОтчета" id="f3b7b334-d773-4499-8fa4-07a754d64857" configVersion="372f52f80fb39e8994ecd99849c5dce4b177ea19"/>
+		<Metadata name="Report.ОборотноСальдоваяВедомостьПоСчету.Form.ФормаОтчета.Form" id="f3b7b334-d773-4499-8fa4-07a754d64857.0" configVersion="e454bbc1cc3200e6ca8bc8aba9a575a04337633d"/>
+		<Metadata name="Role.грв_ОсновнаяРоль" id="7a8fa78f-dd36-4deb-92b1-ba58ee051a55" configVersion="22c2da237c7af58061b28e22d4067177dbc4ee7c"/>
+		<Metadata name="StyleItem.БыстрыеОтборыФонГруппы" id="0ae6a0a2-e6ff-48bb-84e7-dd99383cf4f3" configVersion="90c236ec6a68f82af6a3fe6e9dff0fcfd5e22604"/>
+		<Metadata name="StyleItem.ЦветФонаНекорректногоКонтрагента" id="e563438f-6e65-4c39-91e5-f6ea10476de8" configVersion="43fc284379b49ef73d62964363c13ce6791ba638"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
