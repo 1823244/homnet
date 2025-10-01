@@ -9,6 +9,13 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<ChildItems>
+		<Button name="RUN_TEST" id="3">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.RUN_TEST</CommandName>
+			<ExtendedTooltip name="RUN_TESTРасширеннаяПодсказка" id="4"/>
+		</Button>
+	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
@@ -32,6 +39,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СоздатьОбновитьПоказатели</Action>
+		</Command>
+		<Command name="RUN_TEST" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>RUN TEST</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>RUN TEST</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>RUN_TEST</Action>
 		</Command>
 	</Commands>
 </Form>
