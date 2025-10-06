@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Properties>
+		<Name>Форма</Name>
+		<Title>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>График работ</v8:content>
+			</v8:item>
+		</Title>
+		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+		<SaveDataInSettings>Use</SaveDataInSettings>
+		<CommandBarLocation>Top</CommandBarLocation>
+		<AutoTitle>false</AutoTitle>
+	</Properties>
+	<ChildItems>
+		<LabelDecoration>
+			<Name>ДекорацияНадпись</Name>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>График работ на основе таблицы ГР_12.02_2025</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu>
+				<Name>ДекорацияНадписьКонтекстноеМеню</Name>
+				<Source>ДекорацияНадпись</Source>
+			</ContextMenu>
+			<ExtendedTooltip>
+				<Name>ДекорацияНадписьРасширеннаяПодсказка</Name>
+				<Source>ДекорацияНадпись</Source>
+			</ExtendedTooltip>
+			<Font height="14" bold="true"/>
+			<HorizontalAlign>Center</HorizontalAlign>
+		</LabelDecoration>
+		<SpreadsheetDocumentField>
+			<Name>ТабличныйДокумент</Name>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Табличный документ</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu>
+				<Name>ТабличныйДокументКонтекстноеМеню</Name>
+				<Source>ТабличныйДокумент</Source>
+			</ContextMenu>
+			<ExtendedTooltip>
+				<Name>ТабличныйДокументРасширеннаяПодсказка</Name>
+				<Source>ТабличныйДокумент</Source>
+			</ExtendedTooltip>
+			<DataPath>ТабличныйДокумент</DataPath>
+			<ShowTitle>false</ShowTitle>
+		</SpreadsheetDocumentField>
+	</ChildItems>
+	<Attributes>
+		<Attribute>
+			<Name>ТабличныйДокумент</Name>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Табличный документ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command>
+			<Name>СформироватьОтчет</Name>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать отчет</v8:content>
+				</v8:item>
+			</Title>
+			<Action>СформироватьОтчет</Action>
+			<Picture>
+				<xr:Ref>StdPicture.FormOK</xr:Ref>
+			</Picture>
+		</Command>
+		<Command>
+			<Name>ОчиститьОтчет</Name>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ОчиститьОтчет</Action>
+			<Picture>
+				<xr:Ref>StdPicture.Clear</xr:Ref>
+			</Picture>
+		</Command>
+		<Command>
+			<Name>ОИнформации</Name>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>О программе</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ОИнформации</Action>
+			<Picture>
+				<xr:Ref>StdPicture.Information</xr:Ref>
+			</Picture>
+		</Command>
+	</Commands>
+</Form>
