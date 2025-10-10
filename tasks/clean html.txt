@@ -1,1 +1,4 @@
 https://sh14.ru/utils/avtomaticheskaya-ochistka-html-koda-ot-musora/
+
+точно работает, проверено: нужно вставлять текст WORD
+https://htmlcleanup.com/
